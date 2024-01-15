@@ -1,3 +1,78 @@
 *{
   font-family: "Mulish", sans-serif;
 }
+/* main section style */
+main{
+    max-width:1440px;
+    margin: 70px 100px;
+}
+/* banner setion style */
+.banner-section{
+  position: relative;
+}
+.banner-section::before{
+  border-radius: 16px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+}
+.banner-section img{
+    width:100%;
+    height:auto
+}
+.banner-container{
+  width: 50%;
+  text-align: center;
+  position: absolute;
+top:40%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+.banner-tittle{
+  color:#fff;
+font-size: 64px;
+font-weight: 800;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.banner-desciption{
+  color: #fff;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.banner-select{
+  padding: 7px 30px;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  border: none;
+  color: #333333;
+  cursor: pointer;
+}
+.banner-select-container{
+  display:flex;
+  justify-content: space-between;
+  border-radius: 8px ;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 5px 16px;
+
+}
+.btn-primary{
+  padding: 7px 30px;
+			margin: 0.5em;
+			border-radius: 0.5em;
+			border: none;
+			border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+			font-size: 1em;
+			font-weight:700;
+			cursor: pointer;
+}
