@@ -119,7 +119,12 @@ line-height: normal;
       gap: 8px;
       width: 174px;
       height: 52px;
+      transition: color 0.3s ease;
 
+}
+.btn-primary:hover {
+  color: #312e2e;
+  background-color: #db4c04; /* Set your desired hover color */
 }
 /* banner setion style */
 .banner-section {
